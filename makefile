@@ -1,3 +1,3 @@
 gsinks: gsinks.c
-	gcc -o gsinks -g -O3 gsinks.c nautyW1.a
+	gcc -I../nauty -o gsinks -g -O3 gsinks.c ../nauty/nautyW1.a
     
