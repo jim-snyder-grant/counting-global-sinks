@@ -11,13 +11,15 @@ It also needs data files as input, available from B D McKays data repository. So
 so instad of putting them in source control, there is a shell file, getdata.sh, to download them. 
 
 From an empty working local directory:
-    git clone https://github.com/jim-snyder-grant/counting-global-sinks.git
-    git clone https://github.com/jim-snyder-grant/nauty.git
-    cd nauty
-    ./configure
-    make
-    cd ../counting-global-sinks
-    make
-    ./getdata.sh
-    ./gsinks   
+```
+git clone https://github.com/jim-snyder-grant/counting-global-sinks.git
+git clone https://github.com/jim-snyder-grant/nauty.git
+cd nauty
+./configure
+make
+cd ../counting-global-sinks
+make
+./getdata.sh
+./gsinks   
+```
 (./gsinks -help for options)
