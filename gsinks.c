@@ -27,11 +27,7 @@ Count the remaining colorings. If generating graphs, create a new vertex (which 
 
 
 Building instructions
-
-make sure C_INCLUDE_PATH has the nauty include file path
-make sure LIBRARY_PATH has the nauty library path
-gcc -o gsinks -g -O3 gsinks.c nautyW1.a
-
+SEE readme.MD
 
 */
 
